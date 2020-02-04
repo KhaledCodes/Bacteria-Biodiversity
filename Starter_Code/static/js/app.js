@@ -58,7 +58,7 @@ function buildBar(i) {
         var layout = {
             title: "Occurences of OTU IDs",
             yaxis: {type: 'category'},
-            width:400
+            width:500
         }
 
         Plotly.newPlot("bar", data, layout)
@@ -90,7 +90,8 @@ function buildBubble(i) {
             title: '',
             showlegend: false,
             height: 600,
-            width: 1000
+            width: 1000,
+            xaxis: { title: "OTU ID"}
             
           };
           
