@@ -102,6 +102,7 @@ function buildBubble(i) {
 function buildMeta(i) {
     d3.json(url).then(function(data) {
 
+
         var id = data.metadata[i].id
         var ethnicity = data.metadata[i].ethnicity
         var gender = data.metadata[i].gender
