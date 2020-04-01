@@ -91,7 +91,8 @@ function buildBubble(i) {
             showlegend: false,
             height: 600,
             width: 1000,
-            xaxis: { title: "OTU ID"}
+            xaxis: { title: "OTU ID"},
+            yaxis: { title: "Occurences of OTU ID"}
             
           };
           
