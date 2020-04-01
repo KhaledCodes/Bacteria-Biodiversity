@@ -1,4 +1,4 @@
-# Bacteria Biodiversity
+# Microbe Biodiversity
 
 ![Bacteria.jpg](bacteria.jpg)
 
